@@ -4,4 +4,4 @@ from .models import StickynoteInput
 class StickynoteInputSerializer(serializers.ModelSerializer):
     class Meta:
         model = StickynoteInput
-        fields = ['id', 'name', 'link', 'date', 'time', 'description']
+        fields = ['id', 'name', 'weblink', 'date', 'time', 'description']
