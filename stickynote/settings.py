@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-3g%4^yhz&_ekh)@75i8vt=_yywlf#8gp!60_3d03u6ygwoa_9(
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['https://sticky-note-me.herokuapp.com/']
 CORS_ORIGIN_ALLOW_ALL = True
 
 
